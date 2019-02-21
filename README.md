@@ -30,6 +30,10 @@ I plan to contribute to Joplin once I polish and refine the code.
   done
   	
   ```
+### Todo
 
+- Implement filesystem validation
+- Strengthen illegal character handling
+- Give more CLI feedback
   
 
