@@ -6,6 +6,8 @@ This project was created to extend the functionality of simple markdown editors 
 
 I plan to contribute to Joplin once I polish and refine the code.
 
+![Example Image](https://github.com/xvol/generateTOC/blob/master/example.png)
+
 ## Parameters
 
 | <span style="font-size:80%">Parameter</span> | <span style="font-size:80%">Flags</span> | <span style="font-size:80%">Desc.</span> | <span style="font-size:80%">Default</span> |
@@ -13,6 +15,7 @@ I plan to contribute to Joplin once I polish and refine the code.
 | filename                                     | -f --file                                | path to file                             | none                                       |
 | output                                       | -o --output                              | output filename                          | out.md                                     |
 | directory                                    | -d --dir                                 | output directory                         | ./                                         |
+| write_title                                  | -t --title                               | write title to first line?               | 1                                          |
 
 ## Examples
 
@@ -30,10 +33,9 @@ I plan to contribute to Joplin once I polish and refine the code.
   done
   	
   ```
-### Todo
 
-- Implement filesystem validation
-- Strengthen illegal character handling
-- Give more CLI feedback
-  
+  ### Todo
 
+  - Implement filesystem validation
+  - Strengthen illegal character handling
+  - Give more CLI feedback
