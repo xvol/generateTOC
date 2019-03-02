@@ -40,10 +40,9 @@ I plan to contribute to Joplin once I polish and refine the code.
   
 - Add a TOC to current selected markdown text
   ```bash
-  xdotool key --clearmodifiers "ctrl+a"
   xdotool key --clearmodifiers "ctrl+x"
   python /path/to/gentoc.py --clipboard
-  xdotool key --clearmodifiers "ctrl+v"; 
+  xdotool key --clearmodifiers "ctrl+v"
   ```
   
 <hr/>
