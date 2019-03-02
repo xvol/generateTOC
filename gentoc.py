@@ -109,7 +109,7 @@ def main():
         return output
     
     
-    # table of contents list
+    # Send output to file / clipboard
     if (int)(args.clipboard) == 1:
         in_file = pyperclip.paste()
         pyperclip.copy(gentoc(in_file))
