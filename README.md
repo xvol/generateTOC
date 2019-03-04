@@ -52,5 +52,6 @@ I plan to contribute to Joplin once I polish and refine the code.
   - Implement filesystem validation
   - Strengthen illegal character handling
   - Give more CLI feedback
+  - Remove Pyperclip dependency
 
 
